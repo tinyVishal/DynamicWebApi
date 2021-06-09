@@ -1,3 +1,5 @@
+Refer https://github.com/mnchetan/DynamicWebApi/blob/main/Dynamic%20Web%20Api.docx for bettwer anf formmated view.
+
 Dynamic Web Api (Microsoft SQL Server)
 This is a Dynamic Web Api which supports almost any type of request input and out supported by Microsoft SQL Server and allows teams to focus only on database and UI development without even having to make any change in the service. This service does not have any service specific logic and hence could be easily used within any project having SQL Server as backend database. This supports dynamic get and dynamic post method automations.
 Once deployed this service does not need any future deployment apart from queries.json.
