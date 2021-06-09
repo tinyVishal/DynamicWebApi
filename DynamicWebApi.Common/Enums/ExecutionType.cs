@@ -1,0 +1,2 @@
+﻿/* Copyright Chetan N Mandhania */
+namespace DynamicWebApi.Common.Enums { public enum ExecutionType { ScalarText, NonQueryText, ScalarProcedure, NonQueryProcedure, DataTableText, DataSetText, DataTableProcedure, DataSetProcedure } }

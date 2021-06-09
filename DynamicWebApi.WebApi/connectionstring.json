@@ -1,0 +1,5 @@
+/* Copyright Chetan N Mandhania */
+{
+  "Dev1": "Data Source=myServer;Initial Catalog=Dev1;Integrated Security=true;MultipleActiveResultSets=true;",
+  "Dev2": "Data Source=myServer;Initial Catalog=Dev2;Integrated Security=true;MultipleActiveResultSets=true;"
+}

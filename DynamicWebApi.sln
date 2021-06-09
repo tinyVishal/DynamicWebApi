@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicWebApi.WebApi", "DynamicWebApi.WebApi\DynamicWebApi.WebApi.csproj", "{73D33B13-3980-475D-9EA2-BC797A8B8297}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12870919-DD55-4B66-8021-99F04DE65227} = {12870919-DD55-4B66-8021-99F04DE65227}
+		{721E4131-88A6-4EAE-961E-8107CF00F764} = {721E4131-88A6-4EAE-961E-8107CF00F764}
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2} = {DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}
+		{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B} = {8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}
+		{77DF34C9-08A9-416C-A057-C82E2307BED0} = {77DF34C9-08A9-416C-A057-C82E2307BED0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicWebApi.Repository", "DynamicWebApi.Repository\DynamicWebApi.Repository.csproj", "{721E4131-88A6-4EAE-961E-8107CF00F764}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12870919-DD55-4B66-8021-99F04DE65227} = {12870919-DD55-4B66-8021-99F04DE65227}
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2} = {DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}
+		{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B} = {8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}
+		{77DF34C9-08A9-416C-A057-C82E2307BED0} = {77DF34C9-08A9-416C-A057-C82E2307BED0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicWebApi.IRepository", "DynamicWebApi.IRepository\DynamicWebApi.IRepository.csproj", "{77DF34C9-08A9-416C-A057-C82E2307BED0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12870919-DD55-4B66-8021-99F04DE65227} = {12870919-DD55-4B66-8021-99F04DE65227}
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2} = {DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}
+		{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B} = {8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicWebApi.DAL", "DynamicWebApi.DAL\DynamicWebApi.DAL.csproj", "{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicWebApi.DataContracts", "DynamicWebApi.DataContracts\DynamicWebApi.DataContracts.csproj", "{12870919-DD55-4B66-8021-99F04DE65227}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicWebApi.Common", "DynamicWebApi.Common\DynamicWebApi.Common.csproj", "{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2} = {DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73D33B13-3980-475D-9EA2-BC797A8B8297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D33B13-3980-475D-9EA2-BC797A8B8297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D33B13-3980-475D-9EA2-BC797A8B8297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D33B13-3980-475D-9EA2-BC797A8B8297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721E4131-88A6-4EAE-961E-8107CF00F764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721E4131-88A6-4EAE-961E-8107CF00F764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721E4131-88A6-4EAE-961E-8107CF00F764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721E4131-88A6-4EAE-961E-8107CF00F764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DF34C9-08A9-416C-A057-C82E2307BED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DF34C9-08A9-416C-A057-C82E2307BED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DF34C9-08A9-416C-A057-C82E2307BED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DF34C9-08A9-416C-A057-C82E2307BED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD34B341-1F5A-4D0E-8660-6EC1CBB8BAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12870919-DD55-4B66-8021-99F04DE65227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12870919-DD55-4B66-8021-99F04DE65227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12870919-DD55-4B66-8021-99F04DE65227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12870919-DD55-4B66-8021-99F04DE65227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3FC15D-FD6D-42C6-B80B-A807D2B4FF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9AE4BD3-9685-4DC2-9E98-B95760CC0DD3}
+	EndGlobalSection
+EndGlobal

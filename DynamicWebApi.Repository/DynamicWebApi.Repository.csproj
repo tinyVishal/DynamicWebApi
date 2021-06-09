@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DynamicWebApi.Common\DynamicWebApi.Common.csproj" />
+    <ProjectReference Include="..\DynamicWebApi.DAL\DynamicWebApi.DAL.csproj" />
+    <ProjectReference Include="..\DynamicWebApi.DataContracts\DynamicWebApi.DataContracts.csproj" />
+    <ProjectReference Include="..\DynamicWebApi.IRepository\DynamicWebApi.IRepository.csproj" />
+  </ItemGroup>
+
+</Project>

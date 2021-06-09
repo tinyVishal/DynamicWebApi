@@ -1,0 +1,5 @@
+﻿/* Copyright Chetan N Mandhania */
+{
+  "GetEmployeeDetails_Query": "SELECT * FROM DBO.EMPLOYEE WHERE ID = @EmployeeId",
+  "GetEmployeeDetails_StoredProcedure": "usp_GetEmployeeDetails @EID = @EmployeeId"
+}
