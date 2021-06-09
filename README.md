@@ -14,25 +14,46 @@ Multiple file upload at a time is not supported.
 Complex arrays are mapped using SQL table Types which need to follow ADO.Net/SQL Server constraint of mapping the types in the order in which the field names are defined in the type. But browsers JSON serializers tend to serialize the objects and arrange properties alphabetically which hence the type definition in database to be done alphabetically.
 This api supports hot-reload of the queries and hence restart of the service is not required. Queries are identified using unique key passed on with the calls.
 key (Mandatory parameter): key value helps top identity unique query to be executed from queries.json.
+
+
 executionType (Mandatory parameter): 
+
 •	ScalarText  Executes a query and returns the count of affected rows.
+
 •	NonQueryText  Executes a query and returns success of failure.
+
 •	ScalarProcedure Executes stored procedure and returns the count of affected rows.
+
 •	NonQueryProcedure  Executes a stored procedure and returns success of failure.
+
 •	DataTableText  Executes a query and returns the first result set.
+
 •	DataSetText Executes a query and returns multiple result set.
+
 •	DataTableProcedure  Executes a stored procedure and returns the first result set.
+
 •	DataSetProcedure  Executes a stored procedure and returns multiple result set.
+
 outPutType (Optional parameter and default is JSON): 
+
 •	JSON JSON output is given.
+
 •	EXCEL  Data is exported via EXCEL file having one or more result set.
+
 •	CSV Data is exported via CSV file having only one result set.
+
 filecontentType (Optional, supported with Post method and needed when file content is shared with request body): 
+
 •	EXCEL  Shared as Byte Array with Api and mapped with query/stored procedure as xml and only first sheet data or data of sheet name shared.
+
 •	CSV  Shared as Byte Array with Api and mapped with query/stored procedure as xml.
+
 •	BLOB  Shared as Byte Array with Api and mapped with query/stored procedure as VarBinary.
+
 sheetName (Optional, supported with Post method and passed on if specifie sheet content is to be read from Excel shared).
+
 hasFileContent (Optional, set to be true that is 1 when file content is shared as byte array within request body, default is false).
+
 Web Method	Sample URL
 WhoAmI	http://localhost:5000/api/DynamicWebApi/WhoAmI
 
